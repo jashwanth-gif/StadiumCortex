@@ -1,0 +1,6 @@
+{
+  "name": "StadiumCortex",
+  "description": "FIFA World Cup stadium operations companion and fan assistant. Provides real-time guidance, volunteer SOP lookup, and smart accessibility support.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

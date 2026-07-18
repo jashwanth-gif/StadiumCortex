@@ -1,0 +1,112 @@
+{
+  "stadiumName": "Lusail Iconic Stadium",
+  "capacity": 88966,
+  "zones": ["Zone A (East)", "Zone B (West)", "Zone C (North)", "Zone D (South)"],
+  "gates": [
+    {
+      "name": "Gate A (East Gate)",
+      "zone": "Zone A",
+      "bestForSections": ["101-110", "201-210"],
+      "accessible": true,
+      "details": "Main entrance with dedicated wheelchair lanes and stroller bypass."
+    },
+    {
+      "name": "Gate B (North Gate)",
+      "zone": "Zone C",
+      "bestForSections": ["111-120", "211-220"],
+      "accessible": false,
+      "details": "High capacity turnstiles. Steep escalators only. No direct elevator access."
+    },
+    {
+      "name": "Gate C (West Gate)",
+      "zone": "Zone B",
+      "bestForSections": ["121-130", "221-230"],
+      "accessible": true,
+      "details": "Step-free ramp entry. Direct elevators to concourse Level 2 and Level 3."
+    },
+    {
+      "name": "Gate D (South Gate)",
+      "zone": "Zone D",
+      "bestForSections": ["131-140", "231-240"],
+      "accessible": true,
+      "details": "Level access, ideal for VIP and family support ticket holders."
+    }
+  ],
+  "foodStalls": [
+    {
+      "id": "food_1",
+      "name": "Burger Pitch",
+      "location": "Concourse Level 2, near Section 112",
+      "cuisine": "Burgers & Fries",
+      "accessibleCounter": true,
+      "averagePrepTimeMinutes": 5
+    },
+    {
+      "id": "food_2",
+      "name": "Taco Goal",
+      "location": "Concourse Level 1, near Section 125",
+      "cuisine": "Mexican Street Food",
+      "accessibleCounter": false,
+      "averagePrepTimeMinutes": 8
+    },
+    {
+      "id": "food_3",
+      "name": "Kebab Corner",
+      "location": "Concourse Level 2, near Section 138",
+      "cuisine": "Middle Eastern Halal",
+      "accessibleCounter": true,
+      "averagePrepTimeMinutes": 4
+    },
+    {
+      "id": "food_4",
+      "name": "Stadia Brews",
+      "location": "Concourse Level 3, near Section 205",
+      "cuisine": "Beverages & Snacks",
+      "accessibleCounter": true,
+      "averagePrepTimeMinutes": 3
+    }
+  ],
+  "restrooms": [
+    {
+      "id": "rest_1",
+      "location": "Concourse Level 1, Section 104",
+      "type": "All-Gender & Family",
+      "accessible": true,
+      "hasStrollerSpace": true,
+      "notes": "Includes infant changing station and adult assist bar."
+    },
+    {
+      "id": "rest_2",
+      "location": "Concourse Level 2, Section 118",
+      "type": "Standard Male/Female",
+      "accessible": false,
+      "hasStrollerSpace": false,
+      "notes": "Tight corridors, has stairs at entrance."
+    },
+    {
+      "id": "rest_3",
+      "location": "Concourse Level 2, Section 128",
+      "type": "Accessible Coed",
+      "accessible": true,
+      "hasStrollerSpace": true,
+      "notes": "Equipped with motion-activated doors and low-level sinks."
+    }
+  ],
+  "helpDesks": [
+    {
+      "name": "Family & Lost Desk",
+      "location": "Zone B, Main Lobby near Section 122",
+      "services": ["Lost child reunification", "Stroller tag-in", "Wristband distribution"]
+    },
+    {
+      "name": "Medical Center A",
+      "location": "Zone C, Lower Ground level under Section 115",
+      "services": ["Emergency first aid", "Cardiac care", "Sensory calm room"]
+    },
+    {
+      "name": "Accessibility Help Point",
+      "location": "Zone A, Main Entrance lobby",
+      "services": ["Wheelchair loan", "Aural guide devices", "Sighted escort dispatch"]
+    }
+  ]
+}
