@@ -211,9 +211,8 @@ Sensitive information such as API keys is securely stored using environment vari
 
 ---
 
-# 🌐 Live Demo
-
-Coming Soon...
+# 🌐 Live Demo 
+https://stadium-cortex.vercel.app/
 
 ---
 
